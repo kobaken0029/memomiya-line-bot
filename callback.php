@@ -3,16 +3,12 @@ error_log("callback start.");
 
 // アカウント情報設定
 $channel_id = "1462372337";
-$channel_secret = " 84ccca8628fb714cf06868723825df09";
-$mid = "    u06747bcfbdf8c839539456d146710628";
+$channel_secret = "84ccca8628fb714cf06868723825df09";
+$mid = "u06747bcfbdf8c839539456d146710628";
 
 // リソースURL設定
-$original_content_url_for_image = "[画像URL]";
-$preview_image_url_for_image = "[サムネイル画像URL]";
-$original_content_url_for_video = "[動画URL]";
-$preview_image_url_for_video = "[動画のサムネイル画像URL]";
-$original_content_url_for_audio = "[音声URL]";
-$download_url_for_rich = "[リッチ画像URL]";
+$original_content_url_for_image = "http://plise.co.jp/img/works/onememo/main.jpg";
+$preview_image_url_for_image = "http://plise.co.jp/img/works/onememo/main.jpg";
 
 // メッセージ受信
 $json_string = file_get_contents('php://input');
